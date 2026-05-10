@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Bash(claude mcp *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\enes\\\\Desktop\\\\Enes-CV-Website\" -Force -Recurse)",
+      "Bash(Select-Object -Property FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "PowerShell(Copy-Item *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(Copy-Item \"C:\\\\Users\\\\enes\\\\Desktop\\\\Enes-CV-Website\\\\cv.md\" \"C:\\\\Users\\\\enes\\\\Desktop\\\\Enes-CV-Website\\\\public\\\\cv.md\" -Force)",
+      "Bash(Write-Output \"OK\")"
+    ]
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "vercel@claude-plugins-official": true
+  }
+}
